@@ -1,0 +1,89 @@
+body, ul, p, li, h1, h2, h3, h4, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+	font-size: 12pt;
+}
+#main {
+	border: 0px solid black;
+	width: 870px;
+	margin: 0px auto;
+}
+
+#header {
+	border: 0px solid black;
+	height: 200px;
+}
+
+#header {
+	background: rgba(0, 0, 0, 0) url("bg.jpg") no-repeat scroll 0 0;
+}
+
+#left {
+	border: 0px solid black;
+	width: 200px;
+	height: 900px;
+	float: left;
+}
+
+#center {
+	border: 0px solid black;
+	width: 660px;
+	padding-left:  6px;
+	float: left;
+}
+
+#site{
+	position: absolute;
+	left: 450px;
+	top: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#slogan{
+	position: absolute;
+	left: 470px;
+	top: 85px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#left p {
+	font-size: 10pt;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#center h1 {
+	font-size: 16pt;
+	margin: 2px 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#center p {
+	text-align: justify;
+	margin: 2px 2px;
+	padding-bottom: 10px;
+}
+
+#center img {
+	text-align: justify;
+	width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 9pt;
+}
